@@ -17,11 +17,11 @@ public class TPAJoystick extends Joystick{
         boolean returnValue;
         // Call getRawButton from the Joystick class.
         boolean newState = super.getRawButton(button);
-        if(newState == true && newState != buttonState[button-1]) {
+        if(newState == true && newState != buttonState[button]) {
                 returnValue = true;
         }
         else {returnValue = false;}
-        buttonState[button-1] = newState;
+        buttonState[button] = newState;
         return(returnValue);
     }
 }
