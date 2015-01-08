@@ -34,26 +34,25 @@ public class DriveTrainTester {
     public void run()
     {
         /**
-         * Note: Buttons n is called button n-1 by the API. These are the numbers on the joystick, not the API.
          * Looking at the top of the Logitech 3D Pro:
          * Top left button: 5
          * Top right button: 6
          * Bottom left button: 3
          * Bottom right button: 4
          */
-        if (joystick.getButtonPush(4))
+        if (joystick.getButtonPush(5))
         {
             motorStates[FRONT_LEFT] = ! motorStates[FRONT_LEFT];
         }
-        if (joystick.getButtonPush(5))
+        if (joystick.getButtonPush(6))
         {
             motorStates[FRONT_RIGHT] = ! motorStates[FRONT_RIGHT];
         }
-        if (joystick.getButtonPush(2))
+        if (joystick.getButtonPush(3))
         {
             motorStates[REAR_LEFT] = ! motorStates[REAR_LEFT];
         }
-        if (joystick.getButtonPush(3))
+        if (joystick.getButtonPush(4))
         {
             motorStates[REAR_RIGHT] = ! motorStates[REAR_RIGHT];
         }
