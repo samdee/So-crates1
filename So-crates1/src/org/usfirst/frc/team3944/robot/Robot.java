@@ -43,7 +43,7 @@ public class Robot extends IterativeRobot {
     	robotDrive.mecanumDrive_Polar();
     }
     
-    //@Override
+    //@Overrid
     
     public void testInit() {
         driveTrainTester.reset();
