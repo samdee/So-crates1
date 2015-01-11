@@ -1,45 +1,36 @@
 
-/*
-======================================================================
-#  src file -- Robot.java
-#  Desc     -- Main class for TPA Robot
-#  author   -- gdl
-#  date     -- 1/10/2015
-#  version  -- 1.00 
-#  Team     -- 
-#  required -- 
-#              
-#
-# Procedure Outline.
-#
-
-    Command Line Arguments 
-
-#  04/30/2008 - 1.00 - JD  - Initial Script.
-#
-# ======================================================================
-
-# ======================================================================
-# Global Variable Declaration Section
-# ======================================================================
-*/
-
-package org.usfirst.frc.team3944.robot;
-
-import edu.wpi.first.wpilibj.IterativeRobot;
-
 /**
+ *
+ *  @author - gdl
+ *  @version  1.00 01/10/2015
+ *  
+ *  team #   -- 3944
+ *  
+ * COMMENTS:
+ *
  * The VM is configured to automatically run this class, and to call the
  * functions corresponding to each mode, as described in the IterativeRobot
  * documentation. If you change the name of this class or the package after
  * creating this project, you must also update the manifest file in the resource
  * directory.
+ *       
+ *
+ * REVISIONS:
+ * 
+ *  Deployment - 1.00 - jd  - Initial Script.
+ *
  */
+
+// Imports go here
+package org.usfirst.frc.team3944.robot;
+
+import edu.wpi.first.wpilibj.IterativeRobot;
+
+// main class body 
 public class Robot extends IterativeRobot {
 
-    /**
-     * This function is called periodically during autonomous
-     */
+    //This function is called periodically during autonomous
+
     public void autonomousPeriodic() {
 
     }
