@@ -1,4 +1,40 @@
 
+/*
+======================================================================
+#  src file -- Robot.java
+#  Desc     -- 
+#  author   -- Joe DiCaro
+#  date     -- 4-30-08
+#  version  -- 1.00 
+#  run      -- see usage below
+#  required -- 
+#              
+#
+# Procedure Outline.
+#
+# 1. Used to qc the a pre environement network configuration for the DAN.
+#    It can also be used to qc the post SSH and /etc/host configuration of 
+#    a RAC cluster. It uses ssh to build the universe of servers for testing
+#    and then pings them however many times is desired. It is automated so 
+#    that upon completion of a long running test it can be set to email 
+#    the results.  
+#    
+#    Command Line Arguments 
+#    -q QCMODE, default N, Y for qc RAC cluster network
+#    -c PINGCNT, default 1 
+#    -h HOSTS, at least one host must be given 
+#    -s PKTSZ, default 0, optional argument, set to deterimine pkt size
+#    -e MAILFLAG, default n, Y for email to be sent to MAILADDR
+#
+#  04/30/2008 - 1.00 - JD  - Initial Script.
+#
+# ======================================================================
+
+# ======================================================================
+# Global Variable Declaration Section
+# ======================================================================
+*/
+
 package org.usfirst.frc.team3944.robot;
 
 import edu.wpi.first.wpilibj.IterativeRobot;
