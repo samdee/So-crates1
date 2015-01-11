@@ -17,7 +17,7 @@
  *
  * REVISIONS:
  * 
- *  Deployment - 1.00 - jd  - Initial Script.
+ *  Deployment - 1.00 - jd  - Initial Deployment
  *
  */
 
